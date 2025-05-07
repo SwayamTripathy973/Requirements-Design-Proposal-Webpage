@@ -60,20 +60,20 @@
             <h3>Wireframe: Default Page Design</h3>
             <p>Below is the wireframe for the default page design of our project. It outlines the basic layout and elements that will be present.</p>
             <figure class="figure">
-                <img src="https://drive.google.com/uc?export=view&id=123XYZabc456DEFghi789JKLmno0PQRstu" alt="Wireframe for Default Page" class="embedded-image">
+                <img src="https://drive.google.com/uc?export=view&id=YOUR_WIREFRAME_IMAGE_ID" alt="Wireframe for Default Page" class="embedded-image">
                 <figcaption class="figcaption">Wireframe for a Standard Page Design (e.g., About Us, Contact)</figcaption>
             </figure>
-            <p class="drawio-link"><a href="https://drive.google.com/d/abcdefg12345hijklmnopqrstuvwxyz123456" target="_blank">Link to Wireframe on draw.io</a></p>
+            <p class="drawio-link"><a href="https://drive.google.com/d/YOUR_WIREFRAME_FILE_ID/view?usp=sharing" target="_blank">Link to Wireframe on draw.io</a></p>
         </section>
 
         <section>
             <h3>Site Map:</h3>
             <p>The following site map illustrates the different pages of the website and how they will be linked together for navigation.</p>
             <figure class="figure">
-                <img src="https://drive.google.com/uc?export=view&id=987UVWxyz654TSRqpo321LKJihgfedcba" alt="Site Map" class="embedded-image">
+                <img src="https://drive.google.com/uc?export=view&id=YOUR_SITEMAP_IMAGE_ID" alt="Site Map" class="embedded-image">
                 <figcaption class="figcaption">Site Map for the Cozy Corner Cafe Web Application</figcaption>
             </figure>
-            <p class="drawio-link"><a href="https://drive.google.com/d/zyxwvutsrqponmlkjihgfedcba987654321" target="_blank">Link to Site Map on draw.io</a></p>
+            <p class="drawio-link"><a href="https://drive.google.com/d/YOUR_SITEMAP_FILE_ID/view?usp=sharing" target="_blank">Link to Site Map on draw.io</a></p>
         </section>
 
         <section>
@@ -146,34 +146,38 @@
             <h3>Dynamic Functionality on the Website:</h3>
             <p>Here is a description of the dynamic functionality I plan to implement using JavaScript/jQuery on the website:</p>
             <ul>
-                <li><strong>Simple Image Carousel on the Homepage:</strong>
+                <li><strong>Image Gallery on the Homepage using jQuery UI Lightbox:</strong>
                     <ul>
                         <li><strong>Page:</strong> index.html</li>
-                        <li><strong>Purpose:</strong> To showcase multiple appealing images of the cafe in a limited space on the homepage, creating visual interest and highlighting different aspects of the cafe (e.g., coffee preparation, pastries, ambiance).</li>
-                        <li><strong>Example URLs:</strong>
+                        <li><strong>Purpose:</strong> To showcase appealing images of the cafe in an interactive lightbox gallery. This will allow users to click on thumbnails to view larger images in an overlay, providing a more engaging visual experience without navigating away from the homepage.</li>
+                        <li><strong>Example Implementation Idea:</strong> We will use the jQuery UI dialog widget styled to look like a lightbox, triggered by clicking on image thumbnails.</li>
+                        <li><strong>Example URLs (for inspiration and plugins):</strong>
                             <ul>
-                                <li><a href="https://www.w3schools.com/howto/howto_js_slideshow.asp" target="_blank">W3Schools JavaScript Slideshow Example</a></li>
-                                </ul>
+                                <li><a href="https://jqueryui.com/dialog/" target="_blank">jQuery UI Dialog Widget Documentation</a></li>
+                                <li><a href="https://www.jqueryscript.net/gallery/" target="_blank">jQuery Image Gallery Plugins</a> (for potential alternative plugins)</li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
-                <li><strong>Client-Side Form Validation on the Contact Page:</strong>
+                <li><strong>Basic Client-Side Form Validation on the Contact Page using jQuery:</strong>
                     <ul>
                         <li><strong>Page:</strong> contact.html</li>
-                        <li><strong>Purpose:</strong> To enhance the user experience by providing immediate feedback if the contact form is filled out incorrectly (e.g., missing required fields, invalid email format) before submission is attempted.</li>
-                        <li><strong>Example URLs:</strong>
+                        <li><strong>Purpose:</strong> To provide immediate feedback to users if they have not filled out the required fields (Name, Email, Message) or if the email format is invalid. This will improve user experience by catching errors before a (non-functional in this phase) submission attempt.</li>
+                        <li><strong>Example Implementation Idea:</strong> We will use jQuery to select the form fields and add event listeners on submit. We'll check if the required fields are empty and use a regular expression to validate the email format, displaying error messages if necessary.</li>
+                        <li><strong>Example URLs (for inspiration and plugins):</strong>
                             <ul>
-                                <li><a href="https://jqueryvalidation.org/" target="_blank">jQuery Validation Plugin Example (for more robust validation)</a></li>
-                                </ul>
+                                <li><a href="https://learn.jquery.com/forms/form-validation/" target="_blank">jQuery Learning Center - Form Validation</a></li>
+                                <li><a href="https://jqueryvalidation.org/" target="_blank">jQuery Validation Plugin (more advanced option)</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
-                </ul>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 [Your Name].</p>
+        <p>&copy; 2025 Swayam Tripathy.</p>
         <p><a href="https://validator.w3.org/nu/?doc=https://www.yourhomeworksite.com/project_overview.html" target="_blank">HTML Validation</a> | <a href="https://jigsaw.w3.org/css-validator/?uri=https://www.yourhomeworksite.com/default.css" target="_blank">CSS Validation</a></p>
     </footer>
 </body>
